@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+    paths: [dev_docs/**] 
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
@@ -49,3 +50,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        working-directory: dev_docs
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          publish-dir: ./dev_docs/build
