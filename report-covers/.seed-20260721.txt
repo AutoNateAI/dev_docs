@@ -1,0 +1,1 @@
+Seed commit used to anchor the AutoNateAI report-cover asset branch.
