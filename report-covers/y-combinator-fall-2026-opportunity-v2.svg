@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B0F6B"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#fade)"/>
+
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.09">
+    <circle cx="160" cy="130" r="190"/>
+    <circle cx="1040" cy="520" r="240"/>
+    <path d="M0 470 C240 390 420 560 650 470 S960 350 1200 430"/>
+  </g>
+
+  <text x="600" y="92" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.75" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6">ACCELERATOR</text>
+  <rect x="555" y="112" width="90" height="4" rx="2" fill="#FFFFFF" fill-opacity="0.82"/>
+
+  <text x="600" y="225" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800">Y Combinator</text>
+
+  <text x="600" y="294" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.88" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600">Fall 2026 Batch</text>
+  <text x="600" y="332" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="500">RFS-Aligned Application</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">
+    <rect x="315" y="382" width="170" height="56" rx="28" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.25"/>
+    <circle cx="346" cy="410" r="7" fill="#FBBF24"/>
+    <text x="404" y="417" text-anchor="middle" fill="#FFFFFF">74% Fit</text>
+
+    <rect x="500" y="382" width="200" height="56" rx="28" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.25"/>
+    <circle cx="531" cy="410" r="7" fill="#FBBF24"/>
+    <text x="610" y="417" text-anchor="middle" fill="#FFFFFF">Researching</text>
+
+    <rect x="715" y="382" width="170" height="56" rx="28" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.25"/>
+    <text x="800" y="417" text-anchor="middle" fill="#FFFFFF">Accelerator</text>
+  </g>
+
+  <line x1="300" y1="492" x2="900" y2="492" stroke="#FFFFFF" stroke-opacity="0.28"/>
+
+  <text x="600" y="555" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" letter-spacing="1">AutoNateAI</text>
+  <text x="600" y="585" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.68" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" letter-spacing="2">OPPORTUNITY INTELLIGENCE ENGINE</text>
+</svg>
